@@ -18,7 +18,7 @@ public class MyBot extends PircBot {
       derpKudos.add(sender);
       sendMessage("NickServ", "info " + sender);
     }
-    if( message.toLowerCase().startsWith("!kudos herp") {
+    if( message.toLowerCase().startsWith("!kudos herp") ) {
       herpKudos.add(sender);
       sendMessage("NickServ", "info " + sender);
     }
